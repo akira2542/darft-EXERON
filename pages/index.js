@@ -13,16 +13,20 @@ import {
     DropdownItem,
     NavbarText
   } from 'reactstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import MyNav from '../components/MyNav'
+import MyBanner from '../components/MyBanner'
+
 
 
 export default class Index extends Component {
+
+
     render() {
         return (
             <React.Fragment>
             <MyNav />
-            <h1>Hello There!</h1>
+            <MyBanner />
         </React.Fragment>
         )
     }
